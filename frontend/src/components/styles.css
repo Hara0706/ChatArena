@@ -1,0 +1,21 @@
+.messages{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.notify{
+  border-radius: 50%;
+  position: relative;
+  padding: 1px 6px 1px 6px;
+  top: -8px;
+  right: -16px;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  background: red;
+  color: #fff;
+  justify-content: center;
+  align-items:center;
+}
